@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    background-color: #ef476f;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%2306d6a0' fill-opacity='1'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.contenedor {
+    width: 1000px;
+    background-color: #fff;
+    /* padding: 0px 20px; */
+    margin: 0px auto;
+}
+
+ header nav {
+     background-color: #06D6A0;
+     padding: 20px;
+     text-align: center;
+}
+
+header nav a {
+    display: inline-block;
+    padding: 8px;
+    margin: 0px 20px;
+    font-size: 30px;
+    color: #fff;
+}
+header nav a:hover {
+    background-color: #118AB2;
+}
+
+main {
+    /* margin: 20px; */
+    padding: 30px;
+    text-align: justify;
+    line-height: 30px;
+    background-color: #FFD166;
+}
+main .saludo h1{
+    text-align: center;
+    font-size: 60px;
+}
+main .saludo p {
+    margin: 40px 0px;
+}
+
+main .lista {
+    /* padding: 20px; */
+}
+main section h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+main .lista ol li{
+    margin: 20px;
+    padding: 20px;
+    font-size: 35px;
+    /* text-align: center; */
+}
+/* main .despedida {
+
+} */
+footer {
+    /* margin: 20px; */
+    padding: 20px;
+    text-align: center;
+    background-color: #073B4C;
+    color: #fff;
+}
+footer .autor  p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer .redes-sociales a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+    color: #fff;
+    font-size: 40px;
+}
+footer .redes-sociales a:hover {
+    background-color: #fff;
+    color: #000;
+}
